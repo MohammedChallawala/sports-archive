@@ -14,10 +14,10 @@ logging.basicConfig(
 )
 
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Mohammed@Challawala99",
-    database="sportsarchive"
+    host="<database-host>",
+    user="<database-user>",
+    password="<database-password>",
+    database="<database-name>"
 )
 
 table_columns = {
